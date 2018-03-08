@@ -37,4 +37,4 @@ Remove `google_api_key` and `google_app_id` from any existing xml file from `pla
 
 [npm-url]: https://www.npmjs.com/package/cordova-support-google-services
 [npm-version]: https://img.shields.io/npm/v/cordova-support-google-services.svg
-[npm-downloads]: https://img.shields.io/npm/dt/cordova-support-google-services.svg
+[npm-downloads]: https://img.shields.io/npm/dm/cordova-support-google-services.svg
