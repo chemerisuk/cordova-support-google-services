@@ -7,13 +7,11 @@ As part of enabling Google APIs or Firebase services in your Android application
 
     cordova plugin add cordova-support-google-services --save
 
-Read details about the gradle plugin at https://developers.google.com/android/guides/google-services-plugin.
-
-You also need to put `google-services.json` on Android and `GoogleService-Info.plist` on iOS into appropriate folders. The best way is to use [`<resource-file>`](http://cordova.apache.org/docs/en/latest/config_ref/index.html#resource-file) tag. Put those files into the cordova project root folder and add new tags in your `config.xml` like below:
+You also need to download `google-services.json` on Android and `GoogleService-Info.plist` on iOS from Firebase console and put them into the cordova project root folder. Then use [`<resource-file>`](http://cordova.apache.org/docs/en/latest/config_ref/index.html#resource-file) to copy those files into appropriate folders:
 
 ```xml
 <platform name="android">
-    <resource-file src="google-services.json" target="google-services.json" />
+    <resource-file src="google-services.json" target="app/google-services.json" />
     ...
 </platform>
 <platform name="ios">
@@ -21,6 +19,8 @@ You also need to put `google-services.json` on Android and `GoogleService-Info.p
     ...
 </platform>
 ```
+
+Note: if you use cordova-android below version 7 specify `target="google-services.json"` instead.
 
 ## FAQ
 
