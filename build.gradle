@@ -1,10 +1,12 @@
 buildscript {
     repositories {
         google()
+        jcenter()
         mavenCentral()
     }
 
     dependencies {
+        classpath 'com.android.tools.build:gradle:+'
         classpath 'com.google.gms:google-services:4.2.0'
     }
 }
@@ -12,7 +14,7 @@ buildscript {
 // use postBuildExtras to make sure the plugin is applied after
 // cdvPluginPostBuildExtras. Therefore if googleServices is added
 // to cdvPluginPostBuildExtras somewhere else, the plugin execution
-// will be skipped and build will be successfull
+// will be skipped and project build will be successfull
 ext.postBuildExtras = {
     if (project.extensions.findByName('googleServices') == null) {
         // apply plugin: 'com.google.gms.google-services'
