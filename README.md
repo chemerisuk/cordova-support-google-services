@@ -1,7 +1,20 @@
-# cordova-support-google-services<br>[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url] [![Twitter][twitter-follow]][twitter-url]
-> Cordova plugin to add google service support
+# Cordova plugin to add support for google services
+
+[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url] [![Twitter][twitter-follow]][twitter-url]
+
+| [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)][donate-url] | Your help is appreciated. Create a PR, submit a bug or just grab me :beer: |
+|-|-|
 
 As part of enabling Google APIs or Firebase services in your Android application you may have to add the [google-services plugin](https://developers.google.com/android/guides/google-services-plugin) to your `build.gradle` file.
+
+## Index
+
+<!-- MarkdownTOC levels="2" autolink="true" -->
+
+- [Installation](#installation)
+- [FAQ](#faq)
+
+<!-- /MarkdownTOC -->
 
 ## Installation
 
@@ -40,3 +53,4 @@ Remove `google_api_key` and `google_app_id` from any existing xml file from `pla
 [npm-downloads]: https://img.shields.io/npm/dm/cordova-support-google-services.svg
 [twitter-url]: https://twitter.com/chemerisuk
 [twitter-follow]: https://img.shields.io/twitter/follow/chemerisuk.svg?style=social&label=Follow%20me
+[donate-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UEJW557C3S7EQ&source=url
