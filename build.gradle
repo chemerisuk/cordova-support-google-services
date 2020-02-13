@@ -15,10 +15,10 @@ buildscript {
 // cdvPluginPostBuildExtras. Therefore if googleServices is added
 // to cdvPluginPostBuildExtras somewhere else, the plugin execution
 // will be skipped and project build will be successfull
-ext.postBuildExtras = {
+cdvPluginPostBuildExtras.add({
     if (project.extensions.findByName('googleServices') == null) {
         // apply plugin: 'com.google.gms.google-services'
         // class must be used instead of id(string) to be able to apply plugin from non-root gradle file
         apply plugin: com.google.gms.googleservices.GoogleServicesPlugin
     }
-}
+})
