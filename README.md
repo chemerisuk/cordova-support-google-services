@@ -1,3 +1,5 @@
+**DEPRECATION NOTICE**: no longer needed. Use preference `GradlePluginGoogleServicesEnabled` for `cordova-android` version 9 or higher.
+
 # Cordova plugin to add support for google services
 
 [![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url] [![Twitter][twitter-follow]][twitter-url]
