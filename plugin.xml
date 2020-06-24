@@ -1,7 +1,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
            id="cordova-support-google-services"
-      version="1.4.0">
+      version="1.4.1">
 
     <name>cordova-support-google-services</name>
     <description>Cordova plugin to add google service support</description>

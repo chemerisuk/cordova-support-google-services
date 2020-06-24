@@ -1,6 +1,6 @@
 {
   "name": "cordova-support-google-services",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Cordova plugin to add google service support",
   "scripts": {
     "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml",
